@@ -1,0 +1,32 @@
+{
+  "root": "libs/configurable-fields",
+  "sourceRoot": "libs/configurable-fields/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/configurable-fields",
+        "main": "libs/configurable-fields/src/index.ts",
+        "tsConfig": "libs/configurable-fields/tsconfig.lib.json",
+        "assets": ["libs/configurable-fields/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/configurable-fields/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/configurable-fields"],
+      "options": {
+        "jestConfig": "libs/configurable-fields/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
