@@ -41,14 +41,20 @@
       "executor": "@nrwl/web:dev-server",
       "options": {
         "buildTarget": "admin:build",
-        "hmr": true
+        "hmr": true,
+        "port": 4201
       },
       "configurations": {
         "production": {
           "buildTarget": "admin:build:production",
           "hmr": false
+        },
+        "development": {
+          "buildTarget": "admin:build:development",
+          "hmr": false
         }
-      }
+      },
+      "defaultConfiguration": "development"
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
