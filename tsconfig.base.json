@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@website/configurable-fields": ["libs/configurable-fields/src/index.ts"],
+      "@website/interfaces": ["libs/interfaces/src/index.ts"],
       "@website/shared": ["libs/shared/src/index.ts"],
       "@website/shared/artifacts": ["libs/shared/artifacts/src/index.ts"]
     }
