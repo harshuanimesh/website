@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@website/configurable-fields": ["libs/configurable-fields/src/index.ts"]
+      "@website/configurable-fields": ["libs/configurable-fields/src/index.ts"],
+      "@website/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
