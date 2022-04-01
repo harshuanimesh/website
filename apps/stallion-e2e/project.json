@@ -1,17 +1,17 @@
 {
-  "root": "apps/interface-e2e",
-  "sourceRoot": "apps/interface-e2e/src",
+  "root": "apps/stallion-e2e",
+  "sourceRoot": "apps/stallion-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/interface-e2e/cypress.json",
-        "devServerTarget": "interface:serve:development"
+        "cypressConfig": "apps/stallion-e2e/cypress.json",
+        "devServerTarget": "stallion:serve:development"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "interface:serve:production"
+          "devServerTarget": "stallion:serve:production"
         }
       }
     },
@@ -19,10 +19,10 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/interface-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["apps/stallion-e2e/**/*.{js,ts}"]
       }
     }
   },
   "tags": [],
-  "implicitDependencies": ["interface"]
+  "implicitDependencies": ["stallion"]
 }

@@ -5,10 +5,10 @@
     "admin-e2e": "apps/admin-e2e",
     "api": "apps/api",
     "configurable-fields": "libs/configurable-fields",
-    "interface": "apps/interface",
-    "interface-e2e": "apps/interface-e2e",
     "interfaces": "libs/interfaces",
     "shared": "libs/shared",
-    "shared-artifacts": "libs/shared/artifacts"
+    "shared-artifacts": "libs/shared/artifacts",
+    "stallion": "apps/stallion",
+    "stallion-e2e": "apps/stallion-e2e"
   }
 }
