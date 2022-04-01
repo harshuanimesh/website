@@ -1,0 +1,23 @@
+{
+  "root": "libs/shared-stallion",
+  "sourceRoot": "libs/shared-stallion/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/shared-stallion/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared-stallion"],
+      "options": {
+        "jestConfig": "libs/shared-stallion/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

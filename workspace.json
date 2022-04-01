@@ -5,9 +5,13 @@
     "admin-e2e": "apps/admin-e2e",
     "api": "apps/api",
     "configurable-fields": "libs/configurable-fields",
+    "constants": "libs/constants",
+    "generic-service": "libs/generic-service",
     "interfaces": "libs/interfaces",
     "shared": "libs/shared",
+    "shared-admin": "libs/shared-admin",
     "shared-artifacts": "libs/shared/artifacts",
+    "shared-stallion": "libs/shared-stallion",
     "stallion": "apps/stallion",
     "stallion-e2e": "apps/stallion-e2e"
   }
