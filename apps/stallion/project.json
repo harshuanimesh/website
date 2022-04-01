@@ -63,7 +63,7 @@
       },
       "defaultConfiguration": "development",
       "options": {
-        "port": 5200,
+        "port": 5000,
         "proxyConfig": "apps/stallion/proxy.conf.json"
       }
     },
