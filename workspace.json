@@ -6,6 +6,7 @@
     "api": "apps/api",
     "configurable-fields": "libs/configurable-fields",
     "constants": "libs/constants",
+    "environment": "libs/environment",
     "generic-service": "libs/generic-service",
     "interfaces": "libs/interfaces",
     "shared": "libs/shared",
