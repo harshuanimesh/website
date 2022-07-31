@@ -1,7 +1,7 @@
 {
-  "name": "mean-stack-example",
+  "name": "stallion",
   "version": "1.0.0",
-  "description": "Sample CRUD application built with the MEAN stack.",
+  "description": "portfolio website.",
   "main": "index.js",
   "scripts": {
     "start": "npm run prepare && concurrently \"npm run start:server\" \"npm run start:client\"",
@@ -15,22 +15,13 @@
     "build:client": "cd client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Animesh Harsh",
   "contributors": [
     {
-      "name": "Abirami Sukumaran",
-      "url": "https://github.com/AbiramiSukumaran"
-    },
-    {
-      "name": "Stanimira Vlaeva",
-      "url": "https://github.com/sis0k0"
+      "name": "Animesh Harsh",
+      "email": "harshuanimesh@gmail.com"
     }
   ],
-  "license": "Apache 2.0",
-  "homepage": "https://github.com/mongodb-developer/mean-stack-example#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mongodb-developer/mean-stack-example.git"
-  },
   "devDependencies": {
     "concurrently": "^7.1.0"
   }
