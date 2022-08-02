@@ -7,7 +7,7 @@ import { EmployeeService } from "../employee.service";
   selector: "app-employees-list",
   template: `
     <h2 class="text-center m-5">Employees List</h2>
-
+    <app-navbar></app-navbar>
     <table class="table table-striped table-bordered">
       <thead>
         <tr>

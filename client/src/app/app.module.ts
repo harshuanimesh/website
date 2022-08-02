@@ -10,6 +10,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { AddEmployeeComponent } from "./add-employee/add-employee.component";
 import { EditEmployeeComponent } from "./edit-employee/edit-employee.component";
 import { NavbarComponent } from "./navbar/navbar.component";
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     AddEmployeeComponent,
     EditEmployeeComponent,
     NavbarComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
