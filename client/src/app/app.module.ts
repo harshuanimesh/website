@@ -7,9 +7,17 @@ import { HttpClientModule } from "@angular/common/http";
 import { ReactiveFormsModule } from "@angular/forms";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
+import { GenericServiceComponent } from "./generic-service/generic-service.component";
+import { SidebarComponent } from "./sidebar/sidebar.component";
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, DashboardComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    DashboardComponent,
+    GenericServiceComponent,
+    SidebarComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
