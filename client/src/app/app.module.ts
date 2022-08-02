@@ -8,7 +8,8 @@ import { EmployeeFormComponent } from "./employee-form/employee-form.component";
 import { HttpClientModule } from "@angular/common/http";
 import { ReactiveFormsModule } from "@angular/forms";
 import { AddEmployeeComponent } from "./add-employee/add-employee.component";
-import { EditEmployeeComponent } from "./edit-employee/edit-employee.component"; // <-- add this line
+import { EditEmployeeComponent } from "./edit-employee/edit-employee.component";
+import { NavbarComponent } from "./navbar/navbar.component";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EditEmployeeComponent } from "./edit-employee/edit-employee.component";
     EmployeeFormComponent,
     AddEmployeeComponent,
     EditEmployeeComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,5 +28,6 @@ import { EditEmployeeComponent } from "./edit-employee/edit-employee.component";
   ],
   providers: [],
   bootstrap: [AppComponent],
+  exports: [NavbarComponent],
 })
 export class AppModule {}
