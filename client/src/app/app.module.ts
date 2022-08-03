@@ -9,6 +9,8 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { GenericServiceComponent } from "./generic-service/generic-service.component";
 import { SidebarComponent } from "./sidebar/sidebar.component";
+import { ModalComponent } from './modal/modal.component';
+import { DynamicComponentsComponent } from './dynamic-components/dynamic-components.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { SidebarComponent } from "./sidebar/sidebar.component";
     DashboardComponent,
     GenericServiceComponent,
     SidebarComponent,
+    ModalComponent,
+    DynamicComponentsComponent,
   ],
   imports: [
     BrowserModule,
