@@ -12,6 +12,7 @@ import { SidebarComponent } from "./sidebar/sidebar.component";
 import { ModalComponent } from "./modal/modal.component";
 import { DynamicComponentsComponent } from "./dynamic-components/dynamic-components.component";
 import { DashboardWidgetsComponent } from './dashboard-widgets/dashboard-widgets.component';
+import { DashboardBackgroundComponent } from './dashboard-background/dashboard-background.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { DashboardWidgetsComponent } from './dashboard-widgets/dashboard-widgets
     ModalComponent,
     DynamicComponentsComponent,
     DashboardWidgetsComponent,
+    DashboardBackgroundComponent,
   ],
   imports: [
     BrowserModule,
