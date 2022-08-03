@@ -11,6 +11,7 @@ import { GenericServiceComponent } from "./generic-service/generic-service.compo
 import { SidebarComponent } from "./sidebar/sidebar.component";
 import { ModalComponent } from "./modal/modal.component";
 import { DynamicComponentsComponent } from "./dynamic-components/dynamic-components.component";
+import { DashboardWidgetsComponent } from './dashboard-widgets/dashboard-widgets.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DynamicComponentsComponent } from "./dynamic-components/dynamic-compone
     SidebarComponent,
     ModalComponent,
     DynamicComponentsComponent,
+    DashboardWidgetsComponent,
   ],
   imports: [
     BrowserModule,
