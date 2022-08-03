@@ -1,16 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { FooterBarComponent } from './footer-bar.component';
+import { FooterBarComponent } from "./footer-bar.component";
 
-describe('FooterBarComponent', () => {
+describe("FooterBarComponent", () => {
   let component: FooterBarComponent;
   let fixture: ComponentFixture<FooterBarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FooterBarComponent ]
-    })
-    .compileComponents();
+      declarations: [FooterBarComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('FooterBarComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

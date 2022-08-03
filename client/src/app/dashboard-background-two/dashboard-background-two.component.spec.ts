@@ -1,16 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { DashboardBackgroundTwoComponent } from './dashboard-background-two.component';
+import { DashboardBackgroundTwoComponent } from "./dashboard-background-two.component";
 
-describe('DashboardBackgroundTwoComponent', () => {
+describe("DashboardBackgroundTwoComponent", () => {
   let component: DashboardBackgroundTwoComponent;
   let fixture: ComponentFixture<DashboardBackgroundTwoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DashboardBackgroundTwoComponent ]
-    })
-    .compileComponents();
+      declarations: [DashboardBackgroundTwoComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('DashboardBackgroundTwoComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
