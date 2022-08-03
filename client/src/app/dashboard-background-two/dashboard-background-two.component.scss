@@ -1,0 +1,221 @@
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 41, 144, 1) 0%,
+    rgba(0, 217, 255, 1) 100%
+  );
+}
+
+svg {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#contours {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+#details {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  animation: draw 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+#cheveux-claire {
+  fill-opacity: 0;
+  fill: #fef297;
+  animation: show 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: easy-in;
+}
+#cheveux-fonce {
+  fill-opacity: 0;
+  fill: #f5c82e;
+  animation: show 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: easy-in;
+}
+#sourcils-color {
+  fill-opacity: 0;
+  fill: #fef297;
+  animation: show 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: easy-in;
+}
+#eyes-color {
+  fill-opacity: 0;
+  fill: #2bc3a6;
+  animation: show 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: easy-in;
+}
+#vitesse {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: draw 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: easy-in;
+}
+#v2 {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: draw 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#v3 {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: draw 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#v7 {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: draw 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#v8 {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: draw 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#flammes {
+  fill-opacity: 0;
+  animation: show 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#flamme-light {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #fef297;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 20000;
+  stroke-dashoffset: 20000;
+  animation: draw 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#flamme-middle {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #f5c82e;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 20000;
+  stroke-dashoffset: 20000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#flamme-hard {
+  opacity: 0;
+  fill-opacity: 0;
+  fill: none;
+  stroke: #f0a430;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 20000;
+  stroke-dashoffset: 20000;
+  animation: draw 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  to {
+    fill-opacity: 1;
+    opacity: 1;
+  }
+}
