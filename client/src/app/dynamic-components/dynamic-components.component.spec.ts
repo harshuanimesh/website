@@ -1,16 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { DynamicComponentsComponent } from './dynamic-components.component';
+import { DynamicComponentsComponent } from "./dynamic-components.component";
 
-describe('DynamicComponentsComponent', () => {
+describe("DynamicComponentsComponent", () => {
   let component: DynamicComponentsComponent;
   let fixture: ComponentFixture<DynamicComponentsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DynamicComponentsComponent ]
-    })
-    .compileComponents();
+      declarations: [DynamicComponentsComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('DynamicComponentsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
