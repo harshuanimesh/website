@@ -12,7 +12,7 @@ import { SidebarComponent } from "./sidebar/sidebar.component";
 import { ModalComponent } from "./modal/modal.component";
 import { DynamicComponentsComponent } from "./dynamic-components/dynamic-components.component";
 import { DashboardWidgetsComponent } from "./dashboard-widgets/dashboard-widgets.component";
-import { DashboardBackgroundComponent } from "./dashboard-background/dashboard-background.component";
+import { DashboardBackgroundOneComponent } from "./dashboard-background-one/dashboard-background-one.component";
 import { FooterBarComponent } from "./footer-bar/footer-bar.component";
 import { DashboardBackgroundTwoComponent } from "./dashboard-background-two/dashboard-background-two.component";
 import { DashboardBackgroundThreeComponent } from "./dashboard-background-three/dashboard-background-three.component";
@@ -27,7 +27,7 @@ import { DashboardBackgroundThreeComponent } from "./dashboard-background-three/
     ModalComponent,
     DynamicComponentsComponent,
     DashboardWidgetsComponent,
-    DashboardBackgroundComponent,
+    DashboardBackgroundOneComponent,
     FooterBarComponent,
     DashboardBackgroundTwoComponent,
     DashboardBackgroundThreeComponent,
